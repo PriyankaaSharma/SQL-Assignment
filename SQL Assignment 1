@@ -3,14 +3,30 @@ Select * FROM City
 Where countrycode = 'USA' and population>100000;
 
 Answer 2:
-Select * from City
+Select * From City
+Where countrycode = 'USA' and population>120000
 
 Answer 3:
+Select * from City
+
+Answer 4:
 select * from City
 where ID=1661;
 
-Answer 4:
+Answer 5:
 Select * from City
 where countrycode='JPN';
 
-Answer 5:
+Answer 6:
+Select Name From City
+Where countrycode = 'JPN';
+
+Answer 7:
+Select City, State from Station;
+
+8:
+Select city from Station
+where id%2=0;
+
+9:
+Select count(city) -count(distinct City) from Station;
