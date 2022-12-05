@@ -6,4 +6,11 @@ Answer 2:
 Select * from City
 
 Answer 3:
+select * from City
+where ID=1661;
 
+Answer 4:
+Select * from City
+where countrycode='JPN';
+
+Answer 5:
