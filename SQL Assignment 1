@@ -1,3 +1,9 @@
 Answer 1: 
-(
-id int,
+Select * FROM City
+Where countrycode = 'USA' and population>100000;
+
+Answer 2:
+Select * from City
+
+Answer 3:
+
