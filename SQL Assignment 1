@@ -30,3 +30,21 @@ where id%2=0;
 
 9:
 Select count(city) -count(distinct City) from Station;
+
+10:
+Query for Shortest City:
+
+SELECT LENGTH(City) AS City_length, City AS Shortest_City_Name FROM Station
+ORDER BY City_Length, City 
+Limit 1;
+
+Query for Longest City:
+
+Select LENGTH(City) AS City_length, City AS Longest_City_Name FROM Station 
+ORDER BY City_Length desc, City DESC
+Limit 1;
+
+11:
+
+
+
