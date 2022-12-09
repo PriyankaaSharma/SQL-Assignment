@@ -46,9 +46,11 @@ Limit 1;
 
 11:
 
-Select distinct(City) from Station
+Select distinct(City), Left(city, 1) as First_letter from Station
 WHERE LEFT(City , 1) IN ('a','e','i','o','u');
 
 12:
 
+Select distinct(City), right(city, 1) as Last_letter from Station
+WHERE right(City , 1) IN ('a','e','i','o','u');
 
