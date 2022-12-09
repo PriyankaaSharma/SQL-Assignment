@@ -46,5 +46,9 @@ Limit 1;
 
 11:
 
+Select distinct(City) from Station
+WHERE LEFT(City , 1) IN ('a','e','i','o','u');
+
+12:
 
 
