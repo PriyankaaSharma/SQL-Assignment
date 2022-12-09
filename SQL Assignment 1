@@ -65,9 +65,9 @@ WHERE right(City , 1) Not IN ('a','e','i','o','u');
 
 15:
 Select distinct(City), right(city, 1) as Last_letter from Station
-WHERE left(City , 1) or right(City , 1) Not IN ('a','e','i','o','u'); 
+WHERE left(City , 1) Not IN ('a','e','i','o','u') or right(City , 1) Not IN ('a','e','i','o','u'); 
 
 
 16:
-SELECT distinct(City) FROM Station
-WHERE LEFT(City, 1) and right(City, 1) NOT IN ('a','e','i','o','u');
+Select distinct(City) FROM Station
+Where left(City, 1) NOT IN ('a','e','i','o','u') and right(City, 1) NOT IN ('a','e','i','o','u');
